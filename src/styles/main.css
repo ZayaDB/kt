@@ -4,4 +4,6 @@ body {
 .cover {
   position: relative;
   top: -950px;
+  left: 280px;
+  width: 1620px;
 }
