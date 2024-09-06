@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import icon1 from "../../assets/Frame_6340902.png";
-import vector from "../../assets/Vector320.svg";
 import icon2 from "../../assets/Vector321.png";
 import icon3 from "../../assets/Vector322.png";
 import icon4 from "../../assets/Vector323.png";

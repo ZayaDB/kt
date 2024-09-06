@@ -1,6 +1,4 @@
-import React, { useRef } from "react";
 import Header from "../header/Header";
-import Cover from "../background/Cover";
 import Carousel from "../Carousel";
 import "../../styles/main.css";
 import Sidemenu from "../../components/sidemenu/Sidemenu";
