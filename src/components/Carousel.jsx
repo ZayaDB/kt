@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Cover from "./background/Cover";
+import Cart1 from "./Card/Card1";
 import "../styles/carousel.css"; // Ensure your styles are defined here
 import prev from "../assets/Group34639.svg";
 import next from "../assets/Group34640.png";
@@ -11,6 +12,7 @@ const carouselPages = [
         {/* First Page Content */}
         <div className="page-grid">
           <Cover />
+          <Cart1 />
         </div>
       </div>
     ),

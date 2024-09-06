@@ -2,7 +2,6 @@ import React from "react";
 import logo from "../../assets/img_logo.png";
 import bell from "../../assets/bell1.png";
 import sortdown from "../../assets/SortDown.png";
-import account from "../../assets/account.png";
 import umbrella from "../../assets/umbrella.png";
 import water from "../../assets/water.png";
 import wind from "../../assets/wind.png";

@@ -1,0 +1,8 @@
+.Rectangle {
+  width: 775px;
+  height: 360px;
+  gap: 0px;
+  border-radius: 12px;
+  opacity: 0px;
+  background: linear-gradient(286.66deg, #e9f5ff 4.32%, #c7dff4 94.53%);
+}
