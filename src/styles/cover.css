@@ -1,0 +1,50 @@
+p {
+  position: absolute;
+  left: 290px;
+  top: 30px;
+  font-family: "Pretendard";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+}
+.rightside {
+  position: absolute;
+  top: 30px;
+  left: 1420px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: column;
+}
+.path {
+  display: flex;
+  margin-left: 185px;
+}
+.backimg {
+  position: absolute;
+  top: -90px;
+  right: 90px;
+}
+.backtext {
+  position: relative;
+  z-index: 1;
+  top: 180px;
+  left: 60px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: #4d4d4d;
+  font-family: "Pretendard";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.backtext p {
+  z-index: 10;
+}
+.home {
+  margin-right: 5px;
+}

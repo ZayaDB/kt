@@ -1,0 +1,7 @@
+body {
+  max-height: 1080px;
+}
+.cover {
+  position: relative;
+  top: -950px;
+}

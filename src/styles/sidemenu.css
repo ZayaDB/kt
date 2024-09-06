@@ -1,0 +1,78 @@
+.sidebar {
+  max-width: 260px;
+  height: 100vh; /* Full height */
+  background-color: #0a2b59;
+  color: white;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 17px;
+  font-size: 16px;
+  font-family: "Pretendard";
+  font-style: normal;
+  line-height: 100%;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  position: relative;
+  top: 40px;
+}
+
+.menu-item:hover {
+  background-color: #112b5d;
+}
+
+.menu-icon {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.submenu {
+  padding-left: 30px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+.submenu ul {
+  position: relative;
+  top: 40px;
+}
+.submenu li {
+  list-style: disc;
+  font-size: 14px;
+  line-height: 14px;
+  padding: 9px;
+  color: #9aa4b7;
+  font-weight: 400;
+  cursor: pointer;
+  position: relative;
+  top: 40px;
+}
+
+.submenu li:hover {
+  color: #5ddfde;
+}
+
+.fas.fa-chevron-down {
+  transition: transform 0.3s;
+}
+
+.rotate {
+  transform: rotate(180deg); /* Rotate the chevron when active */
+}
+
+.fas {
+  margin-left: 80px;
+  display: flex;
+  align-items: baseline;
+}

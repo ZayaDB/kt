@@ -1,0 +1,62 @@
+.carousel-container {
+  position: relative;
+  width: 100%;
+  max-height: 1080px;
+  overflow: hidden;
+}
+
+.carousel-slide {
+  display: flex;
+  transition: transform 0.6s ease-in-out;
+}
+
+.carousel-page {
+  min-width: 100%; /* Each page takes full width */
+  height: 100vh; /* Full height of the viewport */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.page-content {
+  width: 80%; /* Adjust the width to fit content */
+  margin: 0 auto;
+  text-align: center;
+}
+
+.page-grid {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card {
+  width: 200px;
+  height: 150px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+}
+
+.carousel-control {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 24px;
+  z-index: 1000;
+}
+
+.carousel-control.prev {
+  left: 280px;
+}
+
+.carousel-control.next {
+  right: 20px;
+}
