@@ -7,6 +7,10 @@ import prev from "../assets/Group34639.svg";
 import next from "../assets/Group34640.png";
 import Kunji from "./kunji/Kunji";
 import Card3 from "./Card/Card3";
+import Card4 from "./Card/Card4";
+import Card5 from "./Card/Card5";
+import Card6 from "./Card/Card6";
+import Card7 from "./Card/Card7";
 
 const carouselPages = [
   {
@@ -29,12 +33,9 @@ const carouselPages = [
     id: 2,
     content: (
       <div className="page-content">
-        {/* Second Page Content */}
-        <h2>산업단지별 전력 대금 2</h2>
-        <div className="page-grid">
-          <div className="card">대전 유성</div>
-          <div className="card">부산 강서</div>
-          <div className="card">서울 금천</div>
+        <div>
+          <Card4 />
+          <Card5 />
         </div>
       </div>
     ),
@@ -43,13 +44,8 @@ const carouselPages = [
     id: 3,
     content: (
       <div className="page-content">
-        {/* Second Page Content */}
-        <h2>산업단지별 전력 대금 3</h2>
-        <div className="page-grid">
-          <div className="card">대전 유성</div>
-          <div className="card">부산 강서</div>
-          <div className="card">서울 금천</div>
-        </div>
+        <Card6 />
+        <Card7 />
       </div>
     ),
   },

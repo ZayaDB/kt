@@ -1,0 +1,138 @@
+.main-container {
+  width: 1580px;
+  height: 640px;
+  position: absolute;
+  top: 320px;
+  left: 40px;
+  gap: 0px;
+  border-radius: 12px;
+  border: 1px solid rgba(232, 231, 231, 1);
+  opacity: 0px;
+  background: rgba(250, 251, 253, 1);
+}
+/* 사이드 메뉴 스타일 */
+.side-menu {
+  width: 240px;
+  height: 640px;
+  background: linear-gradient(#e9f5ff 4.72%, #c7dff4 80.82%);
+  padding: 64px 0px 462px 0px;
+  border-radius: 12px 0 0 12px;
+}
+.menu-item1 {
+  color: rgba(128, 128, 128, 1);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.48px;
+  text-align: left;
+  display: flex;
+  gap: 6px;
+  margin-bottom: 9px;
+  cursor: pointer;
+  position: relative;
+}
+.menu-item1 {
+  color: rgba(128, 128, 128, 1);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.48px;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* 아이콘과 텍스트를 수직 가운데 정렬 */
+  gap: 6px; /* 아이콘과 텍스트 사이 간격 */
+  margin-bottom: 9px;
+  cursor: pointer;
+  position: relative;
+  padding: 8px 10px;
+  transition: color 0.3s ease;
+}
+
+.menu-item1::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* 가상 요소를 중앙에 배치 */
+  width: 0;
+  height: 0;
+  background-color: rgba(3, 66, 142, 1);
+  z-index: -1; /* 텍스트 및 아이콘 뒤로 배경색 이동 */
+  border-radius: 4px;
+  transition: all 0.3s ease; /* 부드러운 전환 효과 */
+}
+
+.menu-item1.active::before,
+.menu-item1:hover::before {
+  width: 240px;
+  height: 38px;
+}
+
+.menu-item1.active,
+.menu-item1:hover {
+  color: rgba(255, 255, 255, 1); /* 텍스트 색상 변경 */
+}
+
+.menu-item1.active {
+  background-color: rgba(3, 66, 142, 1);
+}
+
+/* 아이콘 스타일 */
+.menu-item-icon {
+  font-size: 24px; /* 아이콘 크기 */
+  color: inherit; /* 텍스트와 아이콘 색상 일치 */
+}
+
+/* 탭 스타일 */
+.tab-container {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.tabs {
+  display: flex;
+  width: 1340px;
+  height: 56px;
+  border-radius: 0 12px 0px 0px;
+  background: rgba(220, 224, 227, 1);
+  position: absolute;
+  top: 0;
+  left: 240px;
+}
+
+.tab {
+  cursor: pointer;
+  background-size: 260px 48.01px;
+  background-position: center;
+  background-repeat: no-repeat;
+  gap: 16px;
+  position: relative;
+  top: 8px;
+  left: 390px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(77, 77, 77, 1);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23.87px;
+  text-align: left;
+}
+.tab.active {
+  /* background-color: rgba(250, 251, 253, 1); */
+  background-image: url("../assets/Vector268.png");
+  color: rgba(3, 66, 142, 1);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.48px;
+  text-align: left;
+}
+
+/* 탭 내용 스타일 */
+.tab-content {
+  padding: 20px;
+  border-radius: 10px;
+  position: absolute;
+  top: 127px;
+  left: 356px;
+  display: flex;
+}
