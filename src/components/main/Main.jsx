@@ -8,12 +8,10 @@ export default function Main() {
   return (
     <>
       <Header></Header>
-
       <Sidemenu></Sidemenu>
       <div className="cover">
         <Carousel></Carousel>
       </div>
-
       <Footer></Footer>
     </>
   );

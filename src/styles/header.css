@@ -10,8 +10,9 @@
 }
 header {
   max-width: 1920px;
+  width: 100%;
   max-height: 62px;
-  font-family: "Pretendard";
+
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -32,7 +33,6 @@ header {
   height: auto;
 }
 h3 {
-  font-family: Pretendard;
   font-size: 28px;
   font-weight: bold;
   line-height: 33.41px;
@@ -149,7 +149,6 @@ h3 {
   width: 24px;
   height: 20px;
   text-align: center;
-  font-family: Pretendard;
   font-size: 14px;
   font-weight: 700;
   line-height: 20px;
@@ -162,7 +161,6 @@ h3 {
 }
 
 .bold {
-  font-family: Pretendard;
   font-size: 16px;
   font-weight: 700;
   line-height: 19.09px;

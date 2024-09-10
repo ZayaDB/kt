@@ -5,4 +5,57 @@
   border-radius: 12px;
   opacity: 0px;
   background: linear-gradient(286.66deg, #e9f5ff 4.32%, #c7dff4 94.53%);
+  top: 320px;
+  left: 40px;
+  position: relative;
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.06);
+}
+
+.Rectangle .Contents p {
+  position: absolute;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23.87px;
+  text-align: left;
+  color: #031b4b;
+  top: 45px;
+  left: 136px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.Contents h1 {
+  position: absolute;
+  margin-top: 16px;
+  font-size: 40px;
+  font-weight: 700;
+  color: rgba(3, 27, 75, 1);
+  top: 81px;
+  left: 136px;
+  gap: 16px;
+  display: flex;
+}
+.Contents h3 {
+  color: rgba(3, 27, 75, 0.4);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 14px 0 0 -10px;
+}
+
+.id1 {
+  position: relative;
+  top: 0;
+  right: -284px;
+}
+.id2 {
+  position: relative;
+  top: 162px;
+  left: 0;
+}
+.id3 {
+  position: relative;
+  top: 162px;
+  right: -284px;
 }

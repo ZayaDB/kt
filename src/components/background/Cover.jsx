@@ -16,7 +16,9 @@ function Cover() {
       </div>
       <div className="backimg">
         <img className="backtext" src={rectangle} alt="" />
-        <p>RE100 달성을 위한 재생에너지 직접 PPA 서비스를 제공합니다.</p>
+        <p className="covertext">
+          RE100 달성을 위한 재생에너지 직접 PPA 서비스를 제공합니다.
+        </p>
       </div>
     </section>
   );

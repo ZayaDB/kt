@@ -1,19 +1,27 @@
 import React, { useState } from "react";
 import Cover from "./background/Cover";
 import Cart1 from "./Card/Card1";
+import Card2 from "./Card/Card2";
 import "../styles/carousel.css"; // Ensure your styles are defined here
 import prev from "../assets/Group34639.svg";
 import next from "../assets/Group34640.png";
+import Kunji from "./kunji/Kunji";
+import Card3 from "./Card/Card3";
+
 const carouselPages = [
   {
     id: 1,
     content: (
       <div className="page-content">
         {/* First Page Content */}
-        <div className="page-grid">
-          <Cover />
-          <Cart1 />
-        </div>
+        {/* <div className="page-grid"> */}
+        <Card2 />
+        <Cover />
+        <Cart1 />
+        <Kunji />
+
+        <Card3 />
+        {/* </div> */}
       </div>
     ),
   },

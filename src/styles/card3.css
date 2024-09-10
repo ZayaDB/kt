@@ -1,0 +1,42 @@
+.container3 {
+}
+
+.slider-container {
+  width: 775px;
+  height: 262px;
+  background: rgba(245, 246, 250, 1);
+  border-radius: 12px;
+
+  opacity: 0px;
+  position: absolute;
+  top: 710px;
+  left: 845px;
+  overflow: hidden;
+  margin: auto;
+}
+
+.slider-wrapper {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.slide img {
+  width: 100%;
+  display: block;
+}
+
+.slider-dots {
+  text-align: center;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+}
+
+.active {
+  background-color: #717171;
+}

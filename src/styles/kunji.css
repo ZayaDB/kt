@@ -1,0 +1,64 @@
+.rectangle {
+  width: 775px;
+  height: 262px;
+  position: absolute;
+  top: 710px;
+  left: 40px;
+  gap: 0px;
+  border-radius: 12px;
+  border: 1px solid rgba(234, 235, 237, 1);
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.06);
+}
+.title1 {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-top: 26px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23.87px;
+  text-align: left;
+  color: rgba(51, 51, 51, 1);
+}
+.title1 div {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.71px;
+  text-align: right;
+}
+hr {
+  margin-top: 16px;
+  border: 1px solid rgba(232, 232, 236, 1);
+}
+.contents span {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  vertical-align: middle;
+  justify-content: space-between;
+  margin-right: 12px;
+  margin-left: 30px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.71px;
+  text-align: left;
+  color: rgba(51, 51, 51, 1);
+}
+.contents span > span {
+  margin-top: 0;
+}
+.new {
+  width: 35px;
+  height: 16px;
+  background: rgba(48, 105, 179, 1);
+  padding: 2px 7px 2px 7px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 10px !important;
+  font-weight: 700 !important;
+  color: #fff !important;
+  margin-right: 100px !important;
+}

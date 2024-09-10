@@ -1,8 +1,7 @@
 p {
   position: absolute;
-  left: 10px;
-  top: 30px;
-  font-family: "Pretendard";
+  left: 40px;
+  top: 33px;
   font-size: 24px;
   font-weight: 700;
   line-height: 24px;
@@ -10,8 +9,8 @@ p {
 }
 .rightside {
   position: absolute;
-  top: 30px;
-  left: 1140px;
+  top: 36px;
+  left: 1223px;
   gap: 0px;
   opacity: 0px;
   display: flex;
@@ -19,24 +18,21 @@ p {
 }
 .path {
   display: flex;
-  margin-left: 185px;
+  margin-left: 163px;
 }
 .backimg {
   position: absolute;
-  top: -90px;
-  right: 90px;
+  top: 93px;
+  left: 40px;
+  width: 1580px;
 }
 .backtext {
-  position: relative;
-  z-index: 1;
-  top: 180px;
-  left: 60px;
   display: flex;
   justify-content: center;
   text-align: center;
   align-items: center;
   color: #4d4d4d;
-  font-family: "Pretendard";
+  width: 1580px;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -47,4 +43,14 @@ p {
 }
 .home {
   margin-right: 5px;
+}
+
+.covertext {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Pretendard-Regular";
+  color: rgba(77, 77, 77, 1);
+  position: absolute;
+  top: 88px;
+  left: 566px;
 }

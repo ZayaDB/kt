@@ -1,9 +1,22 @@
-body {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   max-height: 1080px;
+  font-family: "Pretendard-Regular";
+}
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-style: normal;
 }
 .cover {
-  position: relative;
-  top: -950px;
-  left: 280px;
+  position: absolute;
+  top: 64px;
+  left: 260px;
   width: 1620px;
+}
+.sidemenu {
+  max-height: 100%;
 }
