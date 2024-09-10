@@ -33,7 +33,7 @@ export default function Header() {
         </div>
         <div className="weather">
           <span className="location-weather">
-            인천항보 산업단지
+            인천남동 산업단지
             <img src={sun} alt="" />
             <span className="Gradus"> 26°C</span>
           </span>
@@ -47,7 +47,6 @@ export default function Header() {
         <div className="user-info">
           <img src={bell} alt="" />
           <span className="bold">알림</span>
-
           <span className="notif">3</span>
           <img src={sortdown} alt="" />
           <FaRegUser />

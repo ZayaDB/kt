@@ -20,6 +20,9 @@ p {
   display: flex;
   margin-left: 163px;
 }
+.path1 {
+  margin-left: 145px;
+}
 .backimg {
   position: absolute;
   top: 93px;

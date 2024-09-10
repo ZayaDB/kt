@@ -12,7 +12,9 @@ function Card6() {
           <img src={home} alt="" className="home" /> > 현황정보 > 직접 PPA
           거래시장
         </span>
-        <span>재생에너지 직접 PPA 거래현황 정보를 제공합니다.</span>
+        <span className="path2">
+          재생에너지 직접 PPA 거래현황 정보를 제공합니다.
+        </span>
       </div>
       <div className="backimg">
         <img className="backtext" src={rectangle} alt="" />
