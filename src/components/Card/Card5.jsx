@@ -95,13 +95,13 @@ export default function Card5() {
           <div className="rightcard1">
             <div className="rightcard-title">
               <img src={icon5} alt="" />
-              인천 남동
+              전남 군산
             </div>
             <div className="rightcontent">
               <div className="rightvalue">전력공급대금</div>
               <div className="rightvalue1">
                 평균
-                <div className="rightvalue2">120</div>
+                <div className="rightvalue2">125</div>
                 <div className="rightvalue3">원/kWh</div>
               </div>
             </div>
@@ -109,7 +109,7 @@ export default function Card5() {
               <div className="rightvalue">전력거래대금</div>
               <div className="rightvalue1">
                 평균
-                <div className="rightvalue2">165</div>
+                <div className="rightvalue2">170</div>
                 <div className="rightvalue3">원/kWh</div>
               </div>
             </div>
@@ -117,13 +117,13 @@ export default function Card5() {
           <div className="rightcard2">
             <div className="rightcard-title">
               <img src={icon5} alt="" />
-              인천 남동
+              광주 첨단
             </div>
             <div className="rightcontent">
               <div className="rightvalue">전력공급대금</div>
               <div className="rightvalue1">
                 평균
-                <div className="rightvalue2">120</div>
+                <div className="rightvalue2">126</div>
                 <div className="rightvalue3">원/kWh</div>
               </div>
             </div>
@@ -131,7 +131,7 @@ export default function Card5() {
               <div className="rightvalue">전력거래대금</div>
               <div className="rightvalue1">
                 평균
-                <div className="rightvalue2">165</div>
+                <div className="rightvalue2">171</div>
                 <div className="rightvalue3">원/kWh</div>
               </div>
             </div>

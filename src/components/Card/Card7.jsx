@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "../../styles/card7.css";
 import icon1 from "../../assets/mdi_industrial.svg";
 import contents1 from "../../assets/Group34853.svg";
@@ -15,6 +15,14 @@ export default function Card7() {
     setActiveTab(tab);
   };
 
+  const [startSecondArrow, setStartSecondArrow] = useState(false);
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setStartSecondArrow(true);
+    }, 3000);
+
+    return () => clearTimeout(timer);
+  }, []);
   return (
     <>
       <div className="main-container">
@@ -85,6 +93,18 @@ export default function Card7() {
 
           {/* 각 탭에 맞는 내용 표시 */}
           <div className="tab-content">
+            <div className="line-arrow-container">
+              <div className="line first"></div>
+              <div className="arrow first-arrow"></div>
+              <div
+                className={`line second ${startSecondArrow ? "animate" : ""}`}
+              ></div>
+              <div
+                className={`arrow second-arrow ${
+                  startSecondArrow ? "animate" : ""
+                }`}
+              ></div>
+            </div>
             {activeTab === "전체" && (
               <div>
                 <img className="tabimg" src={contents1} alt="" />

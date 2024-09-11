@@ -136,3 +136,80 @@
   left: 356px;
   display: flex;
 }
+.line-arrow-container {
+  position: absolute;
+  width: 285px;
+  height: 50px; /* 더 큰 높이를 줘서 두 번째 라인이 아래로 내려가도록 설정 */
+}
+
+.line {
+  position: absolute;
+  height: 2px;
+  background-color: rgba(255, 218, 218, 1);
+  width: 0;
+}
+
+.first {
+  top: 320px; /* 첫 번째 라인의 위치 */
+  left: 180px;
+  animation: drawLine 3s linear forwards;
+}
+
+.second {
+  top: 320px; /* 두 번째 라인을 첫 번째 라인 아래에 배치 */
+  left: 649px;
+  animation: drawLine 3s linear forwards;
+  animation-delay: 3s; /* 두 번째 애니메이션이 처음에는 멈춰 있음 */
+}
+
+.arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid rgba(243, 111, 64, 1);
+  transform: translateX(-100%);
+  transform: rotate(-90deg);
+}
+
+.first-arrow {
+  top: 315px;
+  margin-left: 170px;
+  animation: moveArrow 3s linear forwards;
+}
+
+.second-arrow {
+  top: 315px; /* 두 번째 화살표 위치를 두 번째 라인에 맞춤 */
+  margin-left: 640px;
+  animation: moveArrow 3s linear forwards;
+  animation-delay: 3s; /* 첫 번째 애니메이션 끝난 후 시작 */
+}
+
+.arrow.animate,
+.line.animate {
+  animation-delay: 0s; /* 두 번째 라인과 화살표 애니메이션 시작 설정 */
+}
+
+@keyframes drawLine {
+  from {
+    width: 0;
+  }
+  to {
+    width: 285px;
+  }
+}
+
+@keyframes moveArrow {
+  0% {
+    left: 0;
+    opacity: 0; /* 화살표는 처음에 보이지 않음 */
+  }
+  80% {
+    opacity: 0; /* 이동 중에 보이지 않음 */
+  }
+  100% {
+    left: 285px;
+    opacity: 1; /* 끝에 도달할 때 화살표가 나타남 */
+  }
+}
